@@ -52,7 +52,8 @@ def add_s(array)
   #new
   array.each_with_index.collect do |e, i|
     if i != 2
-      #e[i] = "#{e[i]}s"
+      "#{e}"
+    else
       "#{e}s"
     end
   end
