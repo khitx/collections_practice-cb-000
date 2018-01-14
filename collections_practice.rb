@@ -49,7 +49,7 @@ def add_s(array)
   new = []
   array.each { |e| new << "#{e}s" }
   new[1] = new[1].slice(0..-2)
-  #new
+  new
   #array.each_with_index.collect do |e, i|
     #if i != 2
       #e[i] = "#{e[i]}s"
