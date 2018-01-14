@@ -51,9 +51,9 @@ def add_s(array)
   #new[1] = new[1].slice(0..-2)
   #new
   array.each_with_index.collect do |e, i|
-    #if i != 2
+    if i != 2
       #e[i] = "#{e[i]}s"
       "#{e[i]}s"
-    #end
+    end
   end
 end
